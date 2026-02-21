@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Base64 Tool</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Base64 Encoder / Decoder</h1>
+    
+    <textarea id="input" placeholder="Enter text here..."></textarea>
+    
+    <div class="buttons">
+        <button onclick="encodeText()">Encode</button>
+        <button onclick="decodeText()">Decode</button>
+        <button onclick="clearText()">Clear</button>
+    </div>
+    
+    <textarea id="output" placeholder="Result..." readonly></textarea>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
